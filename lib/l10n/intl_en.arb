@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "ok": "Ok",
+  "deny": "Deny",
+  "accept": "Accept",
+  "cancel": "Cancel",
+  "confirm": "confirm",
+  "error":"Error",
+  "time_out":"Time out",
+  "stww":"Some thing went wrong",
+  "retry":"Retry",
+  "noInternet":"No internet"
+}
