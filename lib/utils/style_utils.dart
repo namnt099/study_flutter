@@ -42,6 +42,7 @@ SizedBox spaceH36 = SizedBox(height: Dimens.d36.responsive());
 SizedBox spaceH40 = SizedBox(height: Dimens.d40.responsive());
 SizedBox spaceH42 = SizedBox(height: Dimens.d42.responsive());
 SizedBox spaceH44 = SizedBox(height: Dimens.d44.responsive());
+SizedBox spaceH47 = SizedBox(height: Dimens.d47.responsive());
 SizedBox spaceH48 = SizedBox(height: Dimens.d48.responsive());
 SizedBox spaceH50 = SizedBox(height: Dimens.d50.responsive());
 SizedBox spaceH56 = SizedBox(height: Dimens.d56.responsive());
@@ -50,6 +51,7 @@ SizedBox spaceH64 = SizedBox(height: Dimens.d64.responsive());
 SizedBox spaceH70 = SizedBox(height: Dimens.d70.responsive());
 SizedBox spaceH84 = SizedBox(height: Dimens.d84.responsive());
 SizedBox spaceH85 = SizedBox(height: Dimens.d85.responsive());
+SizedBox spaceH86 = SizedBox(height: Dimens.d86.responsive());
 SizedBox spaceH100 = SizedBox(height: Dimens.d100.responsive());
 SizedBox spaceH200 = SizedBox(height: Dimens.d200.responsive());
 

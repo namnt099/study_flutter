@@ -8,52 +8,10 @@ import '../../config/resources/images.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
-  SvgGenImage get icSetting => SvgGenImage('$baseIcon/ic_settings.svg');
-  SvgGenImage get icWallet => SvgGenImage('$baseIcon/ic_wallet.svg');
-  SvgGenImage get icNoti => SvgGenImage('$baseIcon/ic_notice.svg');
-  SvgGenImage get icSupport => SvgGenImage('$baseIcon/ic_support.svg');
-  SvgGenImage get icWarning => SvgGenImage('$baseIcon/ic_warning.svg');
-  SvgGenImage get icCopy => SvgGenImage('$baseIcon/ic_copy.svg');
-  SvgGenImage get icCopyAdd => SvgGenImage('$baseIcon/ic_copy_add.svg');
-  SvgGenImage get icAddSmall => SvgGenImage('$baseIcon/ic_add_small.svg');
-
-  //icon Direct
-  SvgGenImage get icArrowLeft => SvgGenImage('$baseIcon/ic_arrow_left.svg');
-  SvgGenImage get icBack => SvgGenImage('$baseIcon/ic_back.svg');
-  SvgGenImage get icBasicBack => SvgGenImage('$baseIcon/ic_basic_back.svg');
-  SvgGenImage get icRight => SvgGenImage('$baseIcon/ic_right.svg');
-  SvgGenImage get icBasicDown => SvgGenImage('$baseIcon/ic_basic_down.svg');
-  SvgGenImage get icMoreHozirontal =>
-      SvgGenImage('$baseIcon/ic_more_horizontal.svg');
-  SvgGenImage get icTick => SvgGenImage('$baseIcon/ic_tick.svg');
-  SvgGenImage get icBasicTick => SvgGenImage('$baseIcon/ic_basic_tick.svg');
-  SvgGenImage get icBasicDownSmall =>
-      SvgGenImage('$baseIcon/ic_basic_down_small.svg');
-
-  //icon detail wallet
-  SvgGenImage get icEdit => SvgGenImage('$baseIcon/ic_edit.svg');
-  SvgGenImage get icExport => SvgGenImage('$baseIcon/ic_export.svg');
-  SvgGenImage get icRemove => SvgGenImage('$baseIcon/ic_remove.svg');
-  // icon token noncustodial
-  SvgGenImage get icBTC => SvgGenImage('$baseIcon/ic_btc.svg');
-  SvgGenImage get icSend => SvgGenImage('$baseIcon/ic_send.svg');
-  SvgGenImage get icFunding => SvgGenImage('$baseIcon/ic_funding.svg');
-  SvgGenImage get icReceive => SvgGenImage('$baseIcon/ic_receive.svg');
-  SvgGenImage get icSmallSend => SvgGenImage('$baseIcon/ic_small_send.svg');
-  SvgGenImage get icSmallReceive =>
-      SvgGenImage('$baseIcon/ic_small_receive.svg');
-  SvgGenImage get icChevronDown => SvgGenImage('$baseIcon/ic_chevron_down.svg');
-  SvgGenImage get icClose => SvgGenImage('$baseIcon/ic_close.svg');
-  SvgGenImage get icReload => SvgGenImage('$baseIcon/ic_reload.svg');
-  SvgGenImage get icAddressBook => SvgGenImage('$baseIcon/ic_address_book.svg');
-  SvgGenImage get icScan => SvgGenImage('$baseIcon/ic_scan.svg');
-
-  // token custodial
-
-  SvgGenImage get icWithDraw => SvgGenImage('$baseIcon/ic_with_draw.svg');
-  SvgGenImage get icDeposit => SvgGenImage('$baseIcon/ic_deposit.svg');
-  SvgGenImage get icExchange => SvgGenImage('$baseIcon/ic_exchange.svg');
-  SvgGenImage get icTransfer => SvgGenImage('$baseIcon/ic_transfer.svg');
+  AssetGenImage get imgLogin => AssetGenImage('$baseImg/login.png');
+  SvgGenImage get icEye => SvgGenImage('$baseIcon/ic_eye.svg');
+  AssetGenImage get icGoogle => AssetGenImage('$baseImg/img_gg.png');
+  SvgGenImage get icFaceBook => SvgGenImage('$baseIcon/ic_facebook.svg');
 }
 
 class ImageAssets {

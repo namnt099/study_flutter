@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import 'generated/l10n.dart';
 import 'init_app.dart';
 import 'presentation/home/home_page.dart';
+import 'presentation/login/login_page.dart';
 import 'utils/constants/app_constants.dart';
 import 'utils/constants/device_constants.dart';
 
@@ -33,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       builder: (_, __) => GetMaterialApp(
         title: AppConstants.appName,
         debugShowCheckedModeBanner: false,
-        home: const HomePage(),
+        home: const LoginPage(),
         localizationsDelegates: const [
           S.delegate,
           GlobalMaterialLocalizations.delegate,

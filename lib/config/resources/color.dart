@@ -13,6 +13,7 @@ abstract class AppColor {
   Color get divderColor;
   Color get textPrimary;
   Color get textSecondary;
+  Color get textTheme;
   Color get redColor;
   Color get backgroundColor;
   Color get dividerColor;
@@ -29,11 +30,11 @@ class LightApp extends AppColor {
 
   @override
   // TODO: implement divderColor
-  Color get divderColor => color000000;
+  Color get divderColor => colorC0C0C0;
 
   @override
   // TODO: implement textPrimaryColor
-  Color get textPrimary => colorFFFFFF;
+  Color get textPrimary => color000000;
 
   @override
   // TODO: implement textSecondaryColor
@@ -50,6 +51,10 @@ class LightApp extends AppColor {
   @override
   // TODO: implement dividerColor
   Color get dividerColor => colorC0C0C0;
+  
+  @override
+  // TODO: implement textTheme
+  Color get textTheme => colorFFFFFF;
 }
 
 class DarkApp extends AppColor {
@@ -84,4 +89,8 @@ class DarkApp extends AppColor {
   @override
   // TODO: implement dividerColor
   Color get dividerColor => throw UnimplementedError();
+  
+  @override
+  // TODO: implement textTheme
+  Color get textTheme => throw UnimplementedError();
 }

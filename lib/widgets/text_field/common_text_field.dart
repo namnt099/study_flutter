@@ -17,7 +17,8 @@ class CommonTextField extends StatelessWidget {
     this.validator,
     this.textStyle,
     this.contentPadding,
-    this.cusorColor, this.maxLines,
+    this.cusorColor,
+    this.maxLines,
   });
   final String name;
   final String hintText;
@@ -32,28 +33,26 @@ class CommonTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FormBuilderTextField(
+    return TextFormField(
       cursorColor: cusorColor ?? AppTheme.getInstance().textPrimary,
-      name: name,
       style: textStyle ??
           AppTextStyle.regularText.copyWith(
             color: AppTheme.getInstance().textPrimary,
-            fontSize: 14,
+            fontSize: 15,
           ),
-      onChanged: (value) {
-        onChanged(value ?? '');
-      },
+      onChanged: onChanged,
       validator: validator,
       obscureText: obscureText,
       maxLines: maxLines,
       decoration: InputDecoration(
-        suffix: sufficIcon,
+        suffixIcon: sufficIcon,
         contentPadding:
             contentPadding ?? EdgeInsets.all(Dimens.d16.responsive()),
         hintText: hintText,
         border: OutlineInputBorder(
           borderSide: BorderSide(
             color: AppTheme.getInstance().borderColor,
+            width: 3,
           ),
           borderRadius: BorderRadius.all(
             Radius.circular(Dimens.d8.responsive()),
@@ -63,9 +62,19 @@ class CommonTextField extends StatelessWidget {
           color: AppTheme.getInstance().textSecondary,
           fontSize: 14,
         ),
+        enabledBorder: OutlineInputBorder(
+          borderSide: BorderSide(
+            color: AppTheme.getInstance().borderColor,
+            width: 3,
+          ),
+          borderRadius: BorderRadius.all(
+            Radius.circular(Dimens.d8.responsive()),
+          ),
+        ),
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(
-            color: AppTheme.getInstance().textPrimary,
+            color: AppTheme.getInstance().borderColor,
+            width: 3,
           ),
           borderRadius: BorderRadius.all(
             Radius.circular(Dimens.d8.responsive()),
